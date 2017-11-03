@@ -83,7 +83,6 @@ jar {
 
 jar.dependsOn(':frontend:assemble')
 
-
 task buildDocker(type: Docker) {
   baseImage = 'develar/java:latest'
   push = false

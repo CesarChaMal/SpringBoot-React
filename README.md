@@ -1,2 +1,2 @@
-# Trade Validation
-## Developed by Touraj Ebrahimi
+# Spring Boot React
+## Developed by Cesar Chavez
