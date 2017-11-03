@@ -14,7 +14,6 @@ gradlew frontend:start
 ./gradlew bootRun
 gradlew bootRun
 
-
 -- tests
 ./gradlew check
 gradlew check
@@ -37,7 +36,7 @@ docker run -p 8080:8080 geowarin/boot-react --spring.profiles.active=redis --spr
 docker run -p 8080:8080 cesarchamal/springboot-react --spring.profiles.active=redis --spring.redis.host=redis
 docker run -p 8080:8080 cesarchamal/trader-validator --spring.profiles.active=redis --spring.redis.host=redis
 
--- run docker
+-- run docker together with a redis server.
 docker-compose up -d
 
 Get the list of all containers
